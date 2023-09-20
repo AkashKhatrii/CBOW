@@ -13,7 +13,7 @@ def get_eval_stats(emb_file):
    
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--emb_file", default=os.getcwd()+"/embeddings.txt", type=str)
+    parser.add_argument("--emb_file", "/scratch/general/vast/u1469481/cs6957/assignment1/models/embeddings.txt", type=str)
     args = vars(parser.parse_args())
     get_eval_stats(args["emb_file"])
 
