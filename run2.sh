@@ -3,7 +3,7 @@
 #SBATCH --partition=soc-gpu-np
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:1
-#SBATCH --time=6:00:00
+#SBATCH --time=4:00:00
 #SBATCH --mem=2GB
 #SBATCH --mail-user=u1469481@umail.utah.edu
 #SBATCH --mail-type=FAIL,END
