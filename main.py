@@ -101,15 +101,15 @@ def read_text_file(file_path):
         new_data.append((context_to_i, target_to_i))
 
         #Creating txt file
-        with open(RAW_TRAIN_DATA, "a", encoding='utf-8') as rd:
-            rd.write(f"{context}\t{target}")
-            rd.write("\n")
-        with open(NEW_TRAIN_DATA, "a", encoding='utf-8') as d:
-            d.write(f"{context_to_i}\t{target_to_i}")
-            d.write("\n")
+        # with open(RAW_TRAIN_DATA, "a", encoding='utf-8') as rd:
+        #     rd.write(f"{context}\t{target}")
+        #     rd.write("\n")
+        # with open(NEW_TRAIN_DATA, "a", encoding='utf-8') as d:
+        #     d.write(f"{context_to_i}\t{target_to_i}")
+        #     d.write("\n")
 
-        print(context, target)
-
+        # print(context, target)
+   
 
 def read_saved_data():
     with open(
@@ -176,14 +176,14 @@ def read_dev_text_file(file_path):
         new_dev_data.append((context_to_i, target_to_i))
 
         #Creating txt file
-        with open(RAW_DEV_DATA, "a", encoding='utf-8') as rd:
-            rd.write(f"{context}\t{target}")
-            rd.write("\n")
-        with open(NEW_DEV_DATA, "a", encoding='utf-8') as d:
-            d.write(f"{context_to_i}\t{target_to_i}")
-            d.write("\n")
+        # with open(RAW_DEV_DATA, "a", encoding='utf-8') as rd:
+        #     rd.write(f"{context}\t{target}")
+        #     rd.write("\n")
+        # with open(NEW_DEV_DATA, "a", encoding='utf-8') as d:
+        #     d.write(f"{context_to_i}\t{target_to_i}")
+        #     d.write("\n")
 
-        print(context, target)
+        # print(context, target)
 
 
 def get_files(path):
