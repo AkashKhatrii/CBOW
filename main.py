@@ -311,8 +311,8 @@ def main():
         print(best_perf_dict["model_param"]["embeddings.weight"].size())
         print(best_perf_dict["model_param"]["embeddings.weight"])
 
-        torch.save(best_perf_dict["model_param"], 'outputs/saved_model3_01/model.pt')
-        torch.save(best_perf_dict["optim_param"], 'outputs/saved_model3_01/optimizer.pt')
+        # torch.save(best_perf_dict["model_param"], 'outputs/saved_model3_01/model.pt')
+        # torch.save(best_perf_dict["optim_param"], 'outputs/saved_model3_01/optimizer.pt')
 
         torch.save({
             "model_param": best_perf_dict["model_param"],
