@@ -1,7 +1,6 @@
 import argparse
 from gensim.models import KeyedVectors
 from gensim.test.utils import datapath
-import os
 
 
 def get_eval_stats(emb_file):   
